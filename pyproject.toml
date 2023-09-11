@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sv_server"
+version = "0.0.1"
+description = ""
+authors = []
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sv_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
